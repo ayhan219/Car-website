@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup-form">
+        <h2>Sign Up</h2>
+        <div class="signup-area">
+          <input type="text" id="username" placeholder="Username" />
+          <input type="password" id="password" placeholder="Password" />
+          <input type="password" id="password2" placeholder="Enter Again Password" />
+          <input type="email" id="email" placeholder="E-mail" />
+          <input type="checkbox" id="checkbox" id="checkbox" name="chose"/>
+          <span>I read and accept the terms</span>
+        </div>
+        <div class="buttons">
+            <button type="button"id="sign-up">Sign Up</button>
+        </div>
+        <div class="warn-area">
+            <h5>You already have an account? <br><a href="#" id="loginLink">Login</a></h5>
+        </div>
+      </div>
+      <div class="signup-form2">
+        <h2>Login</h2>
+        <div class="signup-area">
+          <input type="text" id="username-login" placeholder="Username" />
+          <input type="password" id="password-password" placeholder="Password" />
+        </div>
+        <div class="buttons">
+            <button type="button"id="sign-up">Sign Up</button>
+        </div>
+        <div class="warn-area">
+            <h5>You don't have an account? <br><a href="#" id="signupLink">Sign up</a></h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="signuplogin.js"></script>
+  </body>
+</html>
